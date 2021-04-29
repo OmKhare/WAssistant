@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="{% static 'style/results.css' %}">
+ <title>Result</title>
+</head>
+<body>
+ 
+  <h1 style="text-align: center;">DONE!</h1>
+  <h2 style="text-align: center;">Hope you enjoyed the experience of WAssistant</h2>
+  <h2 style="text-align: center;">Our server has finished monitoring {{result}}'s online status</h2>
+  <h2 style="text-align: center;">A detailed report will be provided to you when you hit the Show Log File Button</h2>
+ 
+ <div class="container"></div>
+  <form action="analysis">
+   <input type="submit" value="Show Log File" class="end-btn">
+  </form>
+ </div>
+
+</body>
+</html>

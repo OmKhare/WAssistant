@@ -1,0 +1,112 @@
+header{
+ color: goldenrod;
+ margin-top: 0;
+}
+
+body{
+ background-color: black;
+ color: goldenrod;
+}
+
+.head{
+ display: inline-block;
+ margin-top: 0;
+ width: 100%;
+} 
+
+.first-letter {
+  text-transform: uppercase;
+  font-size: 80px;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.title{
+ font-size: 50px;
+ font-weight: 700 ;
+ margin-bottom: 0;
+ margin-top: 0;
+}
+
+.subtitle{
+ margin-top: 0;
+ margin-left: 10px;
+ font-size: 20px;
+}
+
+.logo{
+ width: 90px;
+ height: 90px;
+ margin: 10px;
+ margin-top: 0;
+ position: relative;
+ object-fit: contain;
+}
+
+.first{
+ display: flex;
+ flex-direction: row;
+ right: 100px;
+}
+
+.line{
+ background-color: goldenrod;
+ border-color: goldenrod;
+ margin-left: 0;
+ margin-right: 0;
+}
+
+.middle{
+ margin-top: 0;
+ float: left;
+ margin-left: 20px;
+}
+
+.om{
+ float: right;
+ display: flex;
+ flex-direction: row;
+}
+
+.photo{
+ height: 150px;
+ object-fit: contain;
+ margin-left: 10px;
+ margin-top: 0;
+}
+
+.name{
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-right: 10px;
+}
+
+.vl {
+  border-left: 2px solid goldenrod;
+  margin-right: 20px;
+}
+
+.main{
+ color: goldenrod;
+}
+
+.box{
+ color: goldenrod;
+ size: 10;
+ font-size: 15px;
+ outline: none;
+ background-color: black;
+ border-color: goldenrod;
+}
+
+.submit-btn{
+ margin-top: 10px;
+ background-color: goldenrod;
+ color: black;
+ font-size: 15px;
+ font-weight: 600;
+ outline: none;
+ border-color: goldenrod; 
+}
+
+

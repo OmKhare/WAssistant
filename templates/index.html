@@ -1,0 +1,49 @@
+{% load static %}
+{% static "images" as BaseUrl %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="{% static 'style/styles.css' %}">
+ <title>WAssistant</title>
+</head>
+<body>
+ <header>
+  <div class="head">
+   <div class="middle">
+    <div class="first">
+     <img src="{% static 'images/logo4.jpg' %}" alt="logo" class="logo">
+     <h1 class="title"><span class="first-letter">W</span>Assistant</h1>
+    </div>
+    <h2 class="subtitle">Your Own Whatsapp Assistant!</h2>
+   </div>
+   <div class="om">
+   <div class="vl"></div>
+   <div class="text">
+    <h1 class="name">Om Khare</h1>
+    <h1 class="name">COEP</h1>
+   </div>
+    <img src="{% static 'images/profile.jpg' %}" alt="photo" class="photo">
+   </div>
+  </div>
+  <hr class="line">
+ </header>
+ <div class="main">
+  <h1 style="margin-left: 20px;">1) Online Detector</h1>
+  <form action="result">
+   <h2 style="margin-left: 20px;">Do you want to check when a person comes online? Just enter the name exactly as it is in
+      your phone and you are good to go! </h2>
+   <input type="text" name="name" id="input" class="box" style="margin-left: 20px;">
+   <br>
+   <h2 style="margin-left: 20px;">Enter the time duration for which you want to track him **(in mins)**</h2>
+   <input type="text" name="time" class="box" style="margin-left: 20px;">
+   <h2 style="margin-left: 20px;">NOTE: Open QR code scanner on whatsapp to activate Whatsapp Web</h2>
+   <h2 style="margin-left: 20px;">Another chrome tab will open</h2>
+   <h2 style="margin-left: 20px;">Come back after your entered time</h2>
+   <input type="submit" value="Submit" class="submit-btn" style="margin-left: 20px;">
+  </form>
+ </div>
+</body>
+</html>

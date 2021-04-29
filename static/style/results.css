@@ -1,0 +1,21 @@
+body{
+ background-color: black;
+ color: goldenrod;
+}
+
+.end-btn{
+ margin-top: 10px;
+ background-color: goldenrod;
+ color: black;
+ font-size: 15px;
+ font-weight: 600;
+ outline: none;
+ height: 40px;
+ border-color: goldenrod; 
+ left: 46.5%;
+ position: absolute;
+}
+
+.container{
+ position: relative;
+}
